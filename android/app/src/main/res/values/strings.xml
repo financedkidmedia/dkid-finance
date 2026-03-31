@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">dkid-finance</string>
+    <string name="title_activity_main">dkid-finance</string>
+    <string name="package_name">media.dkid.finance</string>
+    <string name="custom_url_scheme">media.dkid.finance</string>
+</resources>

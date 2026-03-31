@@ -1,0 +1,8 @@
+{
+  "appId": "media.dkid.finance",
+  "appName": "DKID Finance",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
