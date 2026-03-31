@@ -15,7 +15,10 @@ workflows:
       - name: Capacitor copy
         script: npx cap copy ios
       - name: Install pods
-        script: cd ios/App && pod install
+        script: |
+          cd ios/App
+          pod init
+          pod install
       - name: Build iOS
         script: |
           xcodebuild \
